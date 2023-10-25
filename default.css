@@ -439,3 +439,12 @@
 			transform: scale(1) rotate(0deg);
 		}
 	}
+
+	/* Requisito 3:Cambiar el color de los textos al hacer hover en las imágenes y hacerlos clicable */
+	.box:hover span,
+	.boxA:hover p,
+	.boxB:hover p,
+	.boxC:hover p {
+		color: red;
+		cursor: pointer;
+	}
