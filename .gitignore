@@ -17,3 +17,7 @@ images/._pic01.jpg
 images/._pic02.jpg
 images/._pic03.jpg
 ._.gitignore
+._.github
+._README.md
+.github/._workflows
+.github/workflows/._static.yml
