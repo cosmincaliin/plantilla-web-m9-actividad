@@ -448,3 +448,10 @@
 		color: red;
 		cursor: pointer;
 	}
+
+	/* Requisito 4: Cambiar el color de los botones clicables (ETIAM POSUERE) al pasar el ratón por encima */
+	.button:hover {
+		background: #1cd4de;
+		transform: scale(1.15);
+		color: #FFF;
+	}
