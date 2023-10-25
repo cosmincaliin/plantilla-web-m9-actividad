@@ -416,3 +416,26 @@
 			left: 100%;
 		}
 	}
+
+	/* Requisito 2: al hacer hover en las imágenes hacer que giren */
+	.box .image {
+		transition: transform 0.5s ease-in-out;
+	}
+
+	.box .image:hover {
+		animation: spinZoom 5s linear infinite;
+	}
+
+	@keyframes spinZoom {
+		0% {
+			transform: scale(1) rotate(0deg);
+		}
+
+		50% {
+			transform: scale(0.5) rotate(360deg);
+		}
+
+		100% {
+			transform: scale(1) rotate(0deg);
+		}
+	}
